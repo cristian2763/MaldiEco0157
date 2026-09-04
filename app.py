@@ -197,7 +197,7 @@ elif st.session_state["authentication_status"]:
     # ---------------------------------------------------------
     # VISTA STREAMLIT
     # ---------------------------------------------------------
-    st.title("🔬 MALDI-TOF Classifier: STEC O157:H7 vs. Shigella spp.")
+    st.title("🔬 MALDI-TOF STEC O157:H7")
 
     st.sidebar.header("⚙️ Parámetros de Ajuste")
     tolerance = st.sidebar.slider("Tolerancia (m/z ± Da)", min_value=1.0, max_value=20.0, value=10.0, step=0.5)
